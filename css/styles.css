@@ -5,3 +5,24 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.button {
+  display: flex;
+  width: 140px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #737373;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 900;
+}
+.button:hover {
+  color: #737373;
+  background-color: #ffffff;
+}
+.button--alert {
+  background-color: #d20000;
+}

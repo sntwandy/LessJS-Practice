@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    width: 140px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: @color-light;
+    background-color: @color-gray;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 900;
+    &:hover {
+        color: @color-gray;
+        background-color: @color-light;
+    }
+    &--alert {
+        background-color: @color-alert;
+    }
+}
